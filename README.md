@@ -71,7 +71,7 @@ Query:
 ## Technical Details
 
 - **Database:** PostgreSQL
-- **Analysis Tools:** PostgreSQL
+- **Analysis Tools:** PostgreSQL,DBeaver,PGadmin
 
 
 
