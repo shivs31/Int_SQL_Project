@@ -58,10 +58,6 @@ Query:
 - Analyzed last purchased patterns
 - Calculated customer-specific metrics
 
-**📈 Visualization:**
-
-![Cohort Analysis](/)
-
 📊 **Key findings:**
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable lon-term retention pattern.
 - Retention rates are consistently low(8-10%) across all cohorts, suggesting retention issues are systemic rather than specific to certain years.
