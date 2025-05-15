@@ -12,7 +12,10 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 ## Analysis Approach
 
-### 1. 
+### 1. Customer Segmentation Analysis
+- Categorical customers based on total lifetime value(LTV)
+- Assigned customers to High, Mid and Low-value segments
+- Calculated key metrics: total revenue
 
 🖥️ Query: [1_customer_segmentation.sql](/1_customer_segmentation.sql)
 
@@ -35,9 +38,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Cohorts were grouped by year of first purchase
 - Analyzed customer retention at a cohort level
 
-Query:
-
- [2_cohort_analysis.sql](/2_cohort_analysis.sql)
+Query: [2_cohort_analysis.sql](/2_cohort_analysis.sql)
 
 **Key findings:**
 - Revenue per customer shows an alarming decreasing trend over time
@@ -50,13 +51,12 @@ Query:
 - In 2023 we saw a drop in number of customers acquired, which is concerning.
 - With both lowering LTV and decreasing customer acquisition, the company is facing a potential revenue decline.  
 
-### 3. 
-
-🖥️ Query: [3_retention_analysis.sql](/3_retention_analysis.sql)
-
+### 3. Customer Retention
 - Identified customers at risk of churning
 - Analyzed last purchased patterns
 - Calculated customer-specific metrics
+
+🖥️ Query: [3_retention_analysis.sql](/3_retention_analysis.sql)
 
 📊 **Key findings:**
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable lon-term retention pattern.
